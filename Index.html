@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <title>iBlog - Heaven for bloggers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .content-left {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .content-right {
+            margin-left: 20px;
+        }
+
+        .home-article-content {
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+
+        .home-article-content h2 {
+            margin-bottom: 10px;
+        }
+
+        .home-article-content img {
+            display: block;
+            margin-bottom: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .home-article-content h3 {
+            margin: 10px 0 5px;
+            font-size: 20px;
+        }
+
+        .home-article-content span {
+            color: #888;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <span>iBlog</span>
+            <ul>
+                <li><a href="/Index.html" target="_self">Home</a></li>
+                <li><a href="/about.html" target="_self">About</a></li>
+                <li><a href="/contact.html" target="_self">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <div class="content max-width-1 m-auto my-2">
+            <div class="content-wrapper">
+                <div class="content-left">
+                    <h1>The heaven for bloggers</h1>
+                    <p>Welcome to our blog! Discover a world of captivating content, from informative articles to inspiring stories. iBLOG is a website which lets you submit an article which upon approval will be on our website and you can get a good amount from reach here. Join us on our journey of exploration and discovery. Let's dive in together!</p>
+                    <hr>
+                </div>
+                <div class="content-right">
+                    <img src="img/img.svg" alt="iBlog" style="width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+        <div class="home-articles max-width-1 m-auto">
+            <div class="home-article-content">
+                <h2>Search Results</h2>
+                <img src="img/1.svg" alt="article" style="width: 400px;">
+                <a href="/blogpost.html" target="_self"><h3>Health and Lifestyle</h3></a>
+                <span>Lyla James</span>
+                <span>07 January | 4 min read</span>
+            </div>
+        </div>
+        <div class="home-article max-width-1 m-auto font1">
+            <div class="home-article-content">
+                <img src="img/beauty.svg" alt="article" style="width: 400px;">
+                <a href="/blogpost.html" target="_self"><h3>Beauty and Skin</h3></a>
+                <span>Amara Rusher</span>
+                <span>09 January | 3 min read</span>
+            </div>
+        </div>
+        <div class="footer max-width-1 m-auto">
+            <p>copyright &copy; iBlog.com</p>
+            <a href="https://www.vecteezy.com/free-vector/blog">Blog vecteezy</a>
+        </div>
+    </div>
+</body>
+</html>

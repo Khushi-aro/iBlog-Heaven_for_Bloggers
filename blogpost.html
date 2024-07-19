@@ -1,0 +1,206 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>iBlog - Heaven for Bloggers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f8f8;
+        }
+
+        .navigation {
+            height: 74px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 0 20px;
+        }
+
+        .nav-left img {
+            width: 0px;
+        }
+
+        .nav-left ul {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        .nav-left ul li {
+            list-style: none;
+            margin-right: 20px;
+        }
+
+        .nav-left ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-left ul li a:hover {
+            color: rgb(166, 22, 116);
+            font-weight: bold;
+        }
+
+        .form-input {
+            padding: 8px 15px;
+            font-size: 16px;
+            border: 2px solid black;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            border: 2px solid black;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            background-color: #fff;
+        }
+
+        .btn:hover {
+            color: rgb(166, 22, 116);
+            background: #f8f8f8;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
+            padding: 20px 0;
+            background-color:antiquewhite;
+        }
+
+        .max-width {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .post-img img,
+        .home-article-img img {
+            width: 100%; /* Adjust image width to fill container */
+            display: block;
+            margin: 20px auto; /* Add margin */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post-content,
+        .Beauty-and-skincare-content {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post-content h2,
+        .Beauty-and-skincare-content h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .blogpost-meta,
+        .Beauty-and-skincare-content div,
+        .Beauty-and-skincare-content span {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .blog-post-content p,
+        .Beauty-and-skincare-content p {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .home-article-img {
+            max-width: 300px; /* Adjust maximum width */
+            margin: 20px auto; /* Add margin */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation max-width">
+        <div class="nav-left">
+            <a href="/">
+                <img src="img/Health.svg" alt="Healthy food">
+            </a>
+            <ul>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+                
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <hr class="max-width">
+    <div class="post-img max-width">
+        <img src="img/Health.svg" alt="Healthy food" class="home-article-img">
+    </div>
+    <div class="blog-post-content max-width">
+        <h2>The Heaven for Bloggers</h2>
+        <div class="blogpost-meta">
+            <div class="author-info">
+                <H3> Beauty and Skin</H3>
+                <div>Author: Lylah James</div>
+                <div>07 January | 6 min read</div>
+            </div>
+            <div class="social">
+                <!-- Social icons here -->
+            </div>
+        </div>
+        <p>Welcome to Elevate Your Life, your go-to destination for all things related to health, wellness, and living
+            your best life. Whether you're a fitness enthusiast, a nutrition aficionado, or someone seeking inspiration
+            to lead a healthier lifestyle, you've come to the right place. Here at Elevate Your Life, we believe that
+            small changes can lead to significant transformations, and we're dedicated to guiding you on your journey to
+            optimal well-being. <br>1. Mindful Movement: Physical activity is not just about burning calories; it's about
+            moving your body in ways that nourish your mind, body, and spirit. Whether you're into yoga, running,
+            weightlifting, or dance, find activities that bring you joy and make you feel alive. Remember, it's not
+            about perfection; it's about progress and embracing the journey. <br>2. Nourish From Within: Nutrition is the
+            foundation of health, and what you put into your body matters. Explore the vibrant world of whole foods,
+            colorful fruits and vegetables, lean proteins, and healthy fats. Experiment with new recipes, meal prep like
+            a pro, and discover how delicious and nourishing real food can be.<br> 3. Cultivating Mental Wellness: In a
+            world filled with constant stimulation and stress, prioritizing mental wellness is essential. Practice
+            mindfulness, meditation, and deep breathing to calm your mind and soothe your soul. Seek support when
+            needed, whether through therapy, support groups, or simply reaching out to loved ones. Remember, it's okay
+            not to be okay, and asking for help is a sign of strength.</p>
+    </div>
+    <hr class="max-width">
+    <div class="Beauty-and-skincare max-width">
+        <div class="home-article-img">
+            <img src="img/prettyWoman.svg" alt="Pretty woman">
+        </div>
+        <div class="Beauty-and-skincare-content">
+            <h3>Secrets of True Beauty</h3>
+            <div>Amara Rusher</div>
+            <div>9 January | 9 min read</div>
+            <p>Welcome to Secrets of True Beauty: Discovering Radiance Inside and Out Welcome to "Secrets of True Beauty," your sanctuary for uncovering the timeless wisdom and practices that reveal the authentic radiance within each of us. In a world inundated with superficial standards, we're here to peel back the layers and explore the genuine essence of beauty that transcends mere appearances. Join us as we embark on a journey of self-discovery, where inner harmony and outer glow converge to illuminate the path to true beauty.<br>1. Embracing Inner Radiance: True beauty emanates from within, rooted in self-acceptance, and inner peace. Instead of chasing external ideals, let us embrace the unique essence of our being. Celebrate your individuality, quirks, and imperfections as the very traits that make you beautifully unique. Remember, true beauty lies in authenticity.<br>2. Nurturing Skin with Care: Our skin, a canvas reflecting our inner well-being, deserves tender care and attention. Craft a skincare routine that honors your skin's unique needs, indulging in nourishing cleansers, hydrating serums, and protective sunscreens. Treat yourself to moments of pampering, allowing self-care rituals to become sacred acts of self-love.<br> 3. Radiant Health, Radiant Beauty: The glow of true beauty is amplified by vibrant health and vitality. Nourish your body with wholesome foods, hydrating beverages, and restorative sleep. Engage in activities that rejuvenate the mind and uplift the spirit, fostering inner radiance that shines through in your outward appearance.</p>
+        </div>
+    </div>
+    <footer class="footer max-width">
+        <p>Copyright &copy; iBlog.com</p>
+        <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a>
+    </footer>
+</body>
+</html>

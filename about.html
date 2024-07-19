@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlog - Heaven for Bloggers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navigation {
+            font-family: Arial, sans-serif;
+            height: 74px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-left ul {
+            display: flex;
+            align-items: center;
+            margin: 0 77px;
+            font-size: 18px;
+        }
+
+        .nav-left ul li {
+            list-style: none;
+            margin: 0 14px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav-left ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .nav-left ul li a:hover {
+            color: rgb(166, 22, 116);
+            font-weight: bold;
+        }
+
+        .form-input {
+            padding: 0px 5px;
+            font-size: 16px;
+            border: 2px solid black;
+            border-radius: 4px;
+            margin: 0 13px;
+        }
+
+        .btn {
+            padding: 0px 20px;
+            border: 2px solid black;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.6s ease-in-out;
+        }
+
+        .btn:hover {
+            color: rgb(166, 22, 116);
+            background: white;
+        }
+        .nav-left ul {
+            display: flex;
+            align-items: center;
+            margin-left: 77px; /* Adjusted margin-left */
+            font-size: 18px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: rgb(166, 22, 116);
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            background-color: antiquewhite;
+            transform: translateX(-50%);
+            width: 100%;
+        }
+
+        .footer p {
+            margin-bottom: 5px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #888;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .footer a:hover {
+            color: rgb(166, 22, 116);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <nav class="navigation max-width m-auto">
+        <div class="nav-left">
+          
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li> <!-- Corrected href value -->
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Article Search">
+                <button class="btn" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="content">
+        <h1>Welcome to iBlog - Heaven for Bloggers</h1>
+        <p>
+            iBlog is your ultimate destination for exploring captivating content, from informative articles to inspiring stories. Whether you're a seasoned blogger or just starting your journey, iBlog provides a platform for you to share your thoughts, experiences, and expertise with the world.
+        </p>
+        <p>
+            Our mission is to create a supportive community where bloggers can connect, collaborate, and grow together. With user-friendly features and intuitive design, iBlog makes it easy for you to create and publish your content, engage with your audience, and expand your reach.
+        </p>
+        <p>
+            Join us on this exciting journey of exploration and discovery. Let's dive into the world of blogging and make iBlog your go-to destination for all things blogging!
+        </p>
+    </div>
+    <footer class="footer max-width m-auto">
+        <p>Copyright &copy; iBlog.com</p>
+        <a href="https://www.vecteezy.com/free-vector/blog">Blog vecteezy</a>
+    </footer>
+</body>
+
+</html>
+
