@@ -18,5 +18,5 @@ Welcome to iBlog, a thoughtfully designed blogging platform crafted with HTML, C
 ## Screenshots
 
 
-<img width="600" alt="Screenshot 2024-07-19 at 5 17 52 PM" src="https://github.com/user-attachments/assets/0277a5bb-6ade-4cd1-88d1-8e671979eda0">
+<img width="500" alt="Screenshot 2024-07-19 at 5 17 52 PM" src="https://github.com/user-attachments/assets/0277a5bb-6ade-4cd1-88d1-8e671979eda0">
 
